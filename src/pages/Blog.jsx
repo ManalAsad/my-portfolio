@@ -20,7 +20,7 @@ export default function Blog() {
           </p>
           <div className="blog-meta">
             <span>Wyoming, USA</span>
-            <span>September 2024</span>
+            <span>September 2025</span>
             <span>7 days</span>
           </div>
         </div>
