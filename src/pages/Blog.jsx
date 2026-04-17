@@ -55,7 +55,7 @@ export default function Blog() {
         {/* Old Faithful */}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src={import.meta.env.BASE_URL + "images/oldfaithful.jpg"} alt="Old Faithful Geyser" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/Oldfaithful.jpg"} alt="Old Faithful Geyser" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 3</div>
