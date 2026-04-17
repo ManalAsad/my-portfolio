@@ -31,7 +31,7 @@ export default function Blog() {
         {/* Grand Prismatic */}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src="/images/grandprismatic.jpg" alt="Grand Prismatic Geyser" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/grandprismatic.jpg"} alt="Grand Prismatic Geyser" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 2</div>
@@ -54,7 +54,7 @@ export default function Blog() {
         {/* Old Faithful */}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src="/images/oldfaithful.jpg" alt="Old Faithful Geyser" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/oldfaithful.jpg"} alt="Old Faithful Geyser" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 3</div>
@@ -76,7 +76,7 @@ export default function Blog() {
         {/* ATV Adventure */}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src="/images/yellowston 1.jpg" alt="ATV adventure" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/yellowston 1.jpg"} alt="ATV adventure" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 4</div>
@@ -100,7 +100,7 @@ export default function Blog() {
         {/* Mammoth Hot Springs*/}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src="/images/4.jpg" alt="Mammoth Hot Springs" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/4.jpg"} alt="Mammoth Hot Springs" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 5-6</div>

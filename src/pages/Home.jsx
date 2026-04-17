@@ -104,7 +104,7 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="hero-inner">
           <div className="avatar">
-            <img src="/images/profile1.png" alt="Manal Asad" className="avatar-full" /></div>
+            <img src={import.meta.env.BASE_URL + "images/profile1.png"} alt="Manal Asad" className="avatar-full" /></div>
           <div className="hero-content">
             <h1 className="hero-headline">
               Manal Asad<br /><br />
