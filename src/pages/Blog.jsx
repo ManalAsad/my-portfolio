@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import Navbar from '../components/Navbar'
 
 export default function Blog() {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <div className="blog-page">
       <Navbar />
@@ -46,7 +47,7 @@ export default function Blog() {
           </div>
           <div className="video-container">
             <video controls className="video-player video-player-landscape">
-              <source src="/videos/grandprismatic.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + "videos/grandprismatic.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Blog() {
           </div>
           <div className="video-container">
             <video controls className="video-player video-player-landscape">
-              <source src="/videos/Oldfaithfull.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + "videos/Oldfaithfull.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
@@ -92,7 +93,7 @@ export default function Blog() {
           </div>
           <div className="video-container">
             <video controls className="video-player video-player-landscape">
-              <source src="/videos/atv.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + "videos/atv.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
@@ -116,7 +117,7 @@ export default function Blog() {
           </div>
           <div className="video-container">
             <video controls className="video-player-portrait-fill">
-              <source src="/videos/Mammoth.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + "videos/Mammoth.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
@@ -124,7 +125,7 @@ export default function Blog() {
         {/* Lamar Valley */}
         <div className="travel-entry">
           <div className="polaroid-large">
-            <img src="/images/lamarvalley.jpg" alt="Lamar Valley wildlife" className="polaroid-img" />
+            <img src={import.meta.env.BASE_URL + "images/lamarvalley.jpg"} alt="Lamar Valley wildlife" className="polaroid-img" />
           </div>
           <div className="travel-description">
             <div className="travel-label">Day 7</div>
@@ -137,7 +138,7 @@ export default function Blog() {
           </div>
           <div className="video-container">
             <video controls className="video-player video-player-landscape">
-              <source src="/videos/lamarvalley.mp4" type="video/mp4" />
+              <source src={import.meta.env.BASE_URL + "videos/lamarvalley.mp4"} type="video/mp4" />
             </video>
           </div>
         </div>
