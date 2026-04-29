@@ -117,7 +117,11 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <a href="#projects" className="btn-primary" onClick={e => { e.preventDefault(); document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' }) }}>
+
                 View Projects ↓
+              </a>
+              <a href={import.meta.env.BASE_URL + 'public/resume/resume.pdf'} className="btn-secondary" target="_blank" rel="noopener noreferrer">
+                View Resume
               </a>
             </div>
           </div>
